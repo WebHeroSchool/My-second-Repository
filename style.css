@@ -1,7 +1,13 @@
-@font-face {
-    font-family: 'PT_Sans_Caption';
-    src: url('fonts/PTSansCaption-webfont.woff') format('woff');
+.logo {
+    font-family:'PT_Sans_Caption';
     font-weight: bold;
     font-style: normal;
+
+}
+
+.main__title {
+  font-family:'PT_Sans_Caption';
+  font-weight: bold;
+  font-style: normal;
 
 }
