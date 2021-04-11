@@ -5,6 +5,33 @@
 
 }
 
+.logo {
+  position: absolute;
+  width: 28.76px;
+  height: 28.76px;
+}
+
+.logo__rectangle5.3 {
+  position: absolute;
+  width: 28.76px;
+  height: 28.76px;
+  background: #E89C38;
+  opacity: 0.5;
+  border-radius: 5px;
+  transform: rotate(135deg);
+}
+
+
+.logo__rectangle5.2 {
+  position: absolute;
+  width: 28.76px;
+  height: 28.76px;
+  background: #FFBE4D;
+  opacity: 0.5;
+  border-radius: 5px;
+  transform: matrix(-0.71, 0.71, -0.71, -0.71, 0, 0);
+}
+
 .main__title {
   font-family:'PT_Sans_Caption';
   font-weight: bold;
