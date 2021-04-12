@@ -32,6 +32,18 @@
   transform: matrix(-0.71, 0.71, -0.71, -0.71, 0, 0);
 }
 
+.main__subtitle {
+  position: absolute;
+  width: 868px;
+  font-family: PT PT_Sans_Caption;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+}
+
+
 .main__title {
   font-family:'PT_Sans_Caption';
   font-weight: bold;
