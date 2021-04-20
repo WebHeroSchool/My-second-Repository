@@ -1,3 +1,9 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+
 .logo {
     font-family:'PT_Sans_Caption';
     font-weight: bold;
@@ -66,9 +72,9 @@
   font-family: PT PT_Sans_Caption;
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 23px;
   color: #504A62;
   text-decoration: none;
-  padding-right: 9px;
+
 }
