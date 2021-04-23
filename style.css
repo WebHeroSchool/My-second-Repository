@@ -51,7 +51,9 @@
 }
 
 .main {
-  background: top right no-repeat url("Frame/iPhone XS.SVG");
+  background: top center no-repeat url("Frame/iPhone XS.SVG");
+  padding-bottom: 600px;
+  background-size: 30vw 25vw;
 }
 
 .main__title {
