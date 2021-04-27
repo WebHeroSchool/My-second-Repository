@@ -17,25 +17,9 @@
   height: 28.76px;
 }
 
-.logo__rectangle5.3 {
-  position: absolute;
-  width: 28.76px;
-  height: 28.76px;
-  background: #E89C38;
-  opacity: 0.5;
-  border-radius: 5px;
-  transform: rotate(135deg);
-}
 
-
-.logo__rectangle5.2 {
-  position: absolute;
-  width: 28.76px;
-  height: 28.76px;
-  background: #FFBE4D;
-  opacity: 0.5;
-  border-radius: 5px;
-  transform: matrix(-0.71, 0.71, -0.71, -0.71, 0, 0);
+.logo {
+background: url("img/Group 2.png");
 }
 
 .main__subtitle {
@@ -51,7 +35,7 @@
 }
 
 .main {
-  background: top center no-repeat url("Frame/iPhone XS.SVG");
+  background: bottom center no-repeat url("Frame/iPhone XS.SVG");
   padding-bottom: 600px;
   background-size: 30vw 25vw;
 }
