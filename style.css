@@ -1,3 +1,8 @@
+.wrapper {
+  margin: auto;
+  width: 80%;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -44,8 +49,17 @@ background: url("img/Group 2.png");
   font-family:'PT_Sans_Caption';
   font-weight: bold;
   font-style: normal;
+  font-size: 40px;
 
 }
+
+.main__title {
+  margin-left: 90px;
+  padding-top: 80px;
+  padding-right: 40px;
+
+}
+
 
 
 .menu {
@@ -65,5 +79,13 @@ background: url("img/Group 2.png");
   line-height: 23px;
   color: #504A62;
   text-decoration: none;
+}
 
+img{
+  width: 150px;
+  height: 150px;
+}
+div{
+  display: flex;
+  justify-content: center;
 }
