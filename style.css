@@ -43,6 +43,7 @@ background: url("img/Group 2.png");
   background: bottom center no-repeat url("Frame/iPhone XS.SVG");
   padding-bottom: 600px;
   background-size: 30vw 25vw;
+  background-image: 20px;
 }
 
 .main__title {
@@ -79,6 +80,14 @@ background: url("img/Group 2.png");
   line-height: 23px;
   color: #504A62;
   text-decoration: none;
+}
+
+body {
+  background-image: url("img/Group (2).png");
+}
+
+body {
+  background-image: url("img/Group (1).png");
 }
 
 img{
