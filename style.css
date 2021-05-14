@@ -1,3 +1,14 @@
+.wrapper {
+  margin: auto;
+  width: 80%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+
 .logo {
     font-family:'PT_Sans_Caption';
     font-weight: bold;
@@ -5,9 +16,85 @@
 
 }
 
+.logo {
+  position: absolute;
+  width: 28.76px;
+  height: 28.76px;
+}
+
+
+.logo {
+background: url("img/Group 2.png");
+}
+
+.main__subtitle {
+  position: absolute;
+  width: 868px;
+  font-family: PT PT_Sans_Caption;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.main {
+  background: bottom center no-repeat url("Frame/iPhone XS.SVG");
+  padding-bottom: 600px;
+  background-size: 30vw 25vw;
+  background-image: 20px;
+}
+
 .main__title {
   font-family:'PT_Sans_Caption';
   font-weight: bold;
   font-style: normal;
+  font-size: 40px;
 
+}
+
+.main__title {
+  margin-left: 90px;
+  padding-top: 80px;
+  padding-right: 40px;
+
+}
+
+
+
+.menu {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  justify-content: space-between;
+}
+
+.menu__item {
+  position: relative;
+  margin-right: 18px;
+  font-family: PT PT_Sans_Caption;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 23px;
+  color: #504A62;
+  text-decoration: none;
+}
+
+body {
+  background-image: url("img/Group (2).png");
+}
+
+body {
+  background-image: url("img/Group (1).png");
+}
+
+img{
+  width: 150px;
+  height: 150px;
+}
+div{
+  display: flex;
+  justify-content: center;
 }
