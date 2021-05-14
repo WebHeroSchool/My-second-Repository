@@ -83,12 +83,12 @@ background: url("img/Group 2.png");
 }
 
 body {
-  background-image: url("img/Group (2).png");
+  background-image: url("img/Group (1).png"), url("img/Group (2).png");
+  background-repeat: no-repeat;
+  background-position: left center, right center;
 }
 
-body {
-  background-image: url("img/Group (1).png");
-}
+
 
 img{
   width: 150px;
