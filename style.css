@@ -13,19 +13,17 @@
     font-family:'PT_Sans_Caption';
     font-weight: bold;
     font-style: normal;
-
+    position: absolute;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-repeat: no-repeat;
+    width: 28.76px;
+    background: url("img/Group 2.png") no-repeat;
+    background-size: 30px;
 }
 
-.logo {
-  position: absolute;
-  width: 28.76px;
 
-}
-
-
-.logo {
-background: url("img/Group 2.png");
-}
 
 .main__subtitle {
   position: absolute;
@@ -51,14 +49,12 @@ background: url("img/Group 2.png");
   font-weight: bold;
   font-style: normal;
   font-size: 40px;
-
-}
-
-.main__title {
-  margin-left: 90px;
-  padding-top: 80px;
-  padding-right: 40px;
-
+  text-align: center;
+  padding: 58px 327px;
+  margin: 0;
+  width: 57%;
+  padding-top: 88px;
+  margin: auto;
 }
 
 
@@ -88,6 +84,9 @@ body {
   background-position: left center, right center;
 }
 
+.appstore {
+padding-right: 35.37px;
+}
 
 
 img{
