@@ -13,11 +13,11 @@
     font-family:'PT_Sans_Caption';
     font-weight: bold;
     font-style: normal;
-    font-size: 36px;
-    position: absolute;
-    padding-left: 270px;
+    font-size: 38px;
+    padding-left: 159px;
     padding-top: 27px;
     padding-bottom: 30px;
+    margin-right: 990px;
     background-repeat: no-repeat;
     width: 145.76px;
     background: url("img/Group 2.png") no-repeat;
@@ -41,8 +41,8 @@
 
 .main {
   background: bottom center no-repeat url("Frame/iPhone XS.SVG");
-  padding-bottom: 600px;
-  background-size: 30vw 25vw;
+  padding-bottom: 570px;
+  background-size: 25vw 25vw;
   background-image: 20px;
 }
 
@@ -52,7 +52,7 @@
   font-style: normal;
   font-size: 40px;
   text-align: center;
-  padding: 58px 327px;
+  padding: 58px 527px;
   margin: 0;
   width: 57%;
   padding-top: 35px;
@@ -66,7 +66,8 @@
   align-items: center;
   width: 15%;
   justify-content: space-between;
-  margin-right: 200px;
+  margin-right: 210px;
+  padding-top: 15px;
 }
 
 .menu__item {
@@ -88,12 +89,18 @@ body {
 }
 
 .appstore {
+padding-top: 40px;
 padding-right: 35.37px;
+margin-top: -4px;
 }
 
+.googleplay {
+padding-top: 40px;
+margin-top: -4px;
+}
 
-img{
-  width: 150px;
+.img{
+  width: 192px;
   height: 150px;
 }
 div{
