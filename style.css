@@ -30,7 +30,7 @@
 .main__subtitle {
   position: absolute;
   width: 868px;
-  font-family: PT PT_Sans_Caption;
+  font-family:'PT_Sans_Caption';
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -45,6 +45,11 @@
   background-size: 25vw 25vw;
   background-image: 20px;
 }
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
 
 .main__title {
   font-family:'PT_Sans_Caption';
@@ -71,7 +76,7 @@
 .menu__item {
   position: relative;
   margin-right: 28px;
-  font-family: PT PT_Sans_Caption;
+  font-family: 'PT_Sans_Caption';
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -79,6 +84,39 @@
   color: #504A62;
   text-decoration: none;
 }
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__item:hover {
+  opacity: .5;
+  cursor: pointer;
+}
+.menu__item:after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #D2691E;
+  left: 0;
+  opacity: 0;
+  transition: opacity .3s;
+}
+.menu__item:hover:after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: #D2691E;
+  left: 0;
+}
+.menu__item:hover:after {
+  opacity: 1;
+}
+
 
 body {
   background-image: url("img/Group (1).png"), url("img/Group (2).png");
@@ -104,4 +142,84 @@ margin-top: -4px;
 div{
   display: flex;
   justify-content: center;
+}
+
+@media (min-width: 1231px) and (max-width: 1600px) {
+  .wrapper {
+    margin: auto;
+    width: 80%;
+  }
+
+  .header {
+    margin-bottom: 80px;
+  }
+
+.logo {
+  font: 700 28px/36px 'PT_Sans_Caption';
+  font-weight: bold;
+  padding-left: 114px;
+  margin-right: 415px;
+  background-size: 35px;
+}
+
+
+.main {
+  background: bottom center no-repeat url("Frame/iPhone XS.SVG");
+  padding-bottom: 427px;
+  background-size: 28vw 27vw;
+  background-image: 20px;
+}
+
+.main__title {
+  font-family:'PT_Sans_Caption';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 32px;
+  text-align: center;
+  width: 53%;
+  margin-top: -102px;
+}
+
+
+.menu {
+  display: flex;
+  align-items: center;
+  width: 18%;
+  justify-content: space-between;
+  margin-right: 163px;
+  padding-top: 8px;
+}
+
+
+.menu__item {
+  font: 700 13px/25px 'PT_Sans_Caption';
+  position: relative;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.appstore {
+display: inline-block;
+width: 134px;
+height: 44px;
+padding-top: 60px;
+padding-right: 24.37px;
+margin-top: -22px;
+}
+
+.googleplay {
+display: inline-block;
+width: 134px;
+height: 44px;
+padding-top: 60px;
+margin-top: -22px;
+}
+
+body {
+  background-image: url("img/Group (1).png"), url("img/Group (2).png");
+  background-repeat: no-repeat;
+  background-position: left center, right center;
+  height: 710px;
+  background-size: 345px;
 }
