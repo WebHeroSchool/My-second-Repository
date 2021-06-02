@@ -170,6 +170,11 @@ div{
   background-image: 20px;
 }
 
+::-webkit-scrollbar {
+  width: 0;
+}
+
+
 .main__title {
   font-family:'PT_Sans_Caption';
   font-weight: bold;
@@ -217,9 +222,85 @@ margin-top: -22px;
 }
 
 body {
-  background-image: url("img/Group (1).png"), url("img/Group (2).png");
-  background-repeat: no-repeat;
-  background-position: left center, right center;
-  height: 710px;
-  background-size: 345px;
+  height: 753px;
+  background: bottom left no-repeat url("img/Group (3)1366.png"), top right no-repeat url("img/Group (4)1366.png");
+
+}
+
+@media (min-width: 1024px) and (max-width: 1170px); {
+  .wrapper {
+    margin: auto;
+    width: 80%;
+  }
+
+  .header {
+    margin-bottom: 80px;
+  }
+
+.logo {
+  font: 700 18px/36px 'PT_Sans_Caption';
+  font-weight: bold;
+  padding-left: 124px;
+  margin-right: 315px;
+  background-size: 35px;
+}
+
+
+.main {
+  background: bottom center no-repeat url("Frame/iPhone XS.SVG");
+  padding-bottom: 327px;
+  background-size: 28vw 27vw;
+  background-image: 20px;
+}
+
+.main__title {
+  font-family:'PT_Sans_Caption';
+  font-weight: bold;
+  font-style: normal;
+  font-size: 32px;
+  text-align: center;
+  width: 53%;
+  margin-top: -122px;
+}
+
+
+.menu {
+  display: flex;
+  align-items: center;
+  width: 18%;
+  justify-content: space-between;
+  margin-right: 163px;
+  padding-top: 8px;
+}
+
+
+.menu__item {
+  font: 700 13px/25px 'PT_Sans_Caption';
+  position: relative;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.appstore {
+display: inline-block;
+width: 134px;
+height: 44px;
+padding-top: 60px;
+padding-right: 24.37px;
+margin-top: -22px;
+}
+
+.googleplay {
+display: inline-block;
+width: 134px;
+height: 44px;
+padding-top: 60px;
+margin-top: -22px;
+}
+
+body {
+  height: 653px;
+  background: bottom left no-repeat url("img/Group (3)1366.png"), top right no-repeat url("img/Group (4)1366.png");
+
 }
