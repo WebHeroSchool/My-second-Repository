@@ -12,16 +12,15 @@
 .logo {
     font-family:'PT_Sans_Caption';
     font-weight: bold;
-    font-style: normal;
     font-size: 38px;
-    padding-left: 159px;
-    padding-top: 27px;
+    padding-left: 158px;
+    padding-top: 34px;
     padding-bottom: 30px;
-    margin-right: 990px;
+    margin-right: 985px;
     background-repeat: no-repeat;
-    width: 145.76px;
+    width: 175.76px;
     background: url("img/Group 2.png") no-repeat;
-    background-size: 45px;
+    background-size: 50px;
     background-position: center;
 }
 
@@ -67,15 +66,15 @@
 .menu {
   display: flex;
   align-items: center;
-  width: 15%;
+  width: 16%;
   justify-content: space-between;
-  margin-right: 210px;
-  padding-top: 15px;
+  margin-right: 205px;
+  padding-top: 21px;
 }
 
 .menu__item {
   position: relative;
-  margin-right: 28px;
+  margin-right: 25px;
   font-family: 'PT_Sans_Caption';
   font-style: normal;
   font-weight: bold;
@@ -122,6 +121,7 @@ body {
   background-image: url("img/Group (1).png"), url("img/Group (2).png");
   background-repeat: no-repeat;
   background-position: left center, right center;
+  margin: 0;
 }
 
 .appstore {
@@ -155,11 +155,11 @@ div{
   }
 
 .logo {
-  font: 700 28px/36px 'PT_Sans_Caption';
+  font: 700 28px/37px 'PT_Sans_Caption';
   font-weight: bold;
-  padding-left: 114px;
-  margin-right: 415px;
-  background-size: 35px;
+  padding-left: 118px;
+  margin-right: 429px;
+  background-size: 34px;
 }
 
 
@@ -191,17 +191,18 @@ div{
   align-items: center;
   width: 18%;
   justify-content: space-between;
-  margin-right: 163px;
-  padding-top: 8px;
+  margin-right: 167px;
+  padding-top: 15px;
 }
 
 
 .menu__item {
-  font: 700 13px/25px 'PT_Sans_Caption';
+  font: 700 14px/29px 'PT_Sans_Caption';
   position: relative;
   font-style: normal;
   font-weight: bold;
   text-decoration: none;
+  margin-right: 23px;
 }
 
 .appstore {
@@ -222,7 +223,7 @@ margin-top: -22px;
 }
 
 body {
-  height: 753px;
+  height: 767px;
   background: bottom left no-repeat url("img/Group (3)1366.png"), top right no-repeat url("img/Group (4)1366.png");
 
 }
