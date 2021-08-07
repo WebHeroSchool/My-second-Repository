@@ -1,27 +1,30 @@
 .wrapper {
   margin: auto;
   width: 80%;
+
 }
 
 .header {
   display: flex;
   justify-content: space-between;
+
 }
 
 
 .logo {
     font-family:'PT_Sans_Caption';
     font-weight: bold;
-    font-size: 98px;
+    font-size: 35px;
     padding-left: 158px;
-    padding-top: 34px;
+    padding-top: 37px;
     padding-bottom: 30px;
-    margin-right: 985px;
+    margin-right: 980px;
     background-repeat: no-repeat;
     width: 175.76px;
     background: url("img/Group 2.png") no-repeat;
     background-size: 50px;
     background-position: center;
+
 }
 
 
@@ -36,13 +39,15 @@
   display: flex;
   align-items: center;
   text-align: center;
+
 }
 
 .main {
   background: bottom center no-repeat url("Frame/iPhone XS.SVG");
-  padding-bottom: 567px;
+  padding-bottom: 570px;
   background-size: 25vw 25vw;
   background-image: 20px;
+
 }
 
 ::-webkit-scrollbar {
@@ -59,6 +64,7 @@
   width: 44%;
   padding-top: 75px;
   margin: auto;
+
 }
 
 
@@ -70,6 +76,7 @@
   justify-content: space-between;
   margin-right: 205px;
   padding-top: 21px;
+
 }
 
 .menu__item {
@@ -82,15 +89,18 @@
   line-height: 23px;
   color: #504A62;
   text-decoration: none;
+
 }
 
 .menu__item:last-child {
   margin-right: 0;
+
 }
 
 .menu__item:hover {
   opacity: .5;
   cursor: pointer;
+
 }
 .menu__item:after {
   display: block;
@@ -102,6 +112,7 @@
   left: 0;
   opacity: 0;
   transition: opacity .3s;
+
 }
 .menu__item:hover:after {
   display: block;
@@ -110,10 +121,12 @@
   width: 100%;
   height: 3px;
   background: #D2691E;
+
   left: 0;
 }
 .menu__item:hover:after {
   opacity: 1;
+
 }
 
 
@@ -121,6 +134,7 @@ body {
   background-image: url("img/Group (1).png"), url("img/Group (2).png");
   background-repeat: no-repeat;
   background-position: left center, right center;
+
   margin: 0;
 }
 
@@ -128,30 +142,36 @@ body {
 padding-top: 60px;
 padding-right: 35.37px;
 margin-top: -4px;
+
 }
 
 .googleplay {
 padding-top: 60px;
 margin-top: -4px;
+
 }
 
 .img{
   width: 192px;
   height: 150px;
+
 }
 div{
   display: flex;
   justify-content: center;
+
 }
 
 @media (max-width: 1366px) {
   .wrapper {
     margin: auto;
     width: 80%;
+
   }
 
   .header {
     margin-bottom: 80px;
+
   }
 
 .logo {
@@ -160,6 +180,7 @@ div{
   padding-left: 118px;
   margin-right: 429px;
   background-size: 34px;
+
 }
 
 
@@ -168,6 +189,7 @@ div{
   padding-bottom: 427px;
   background-size: 28vw 27vw;
   background-image: 20px;
+
 }
 
 ::-webkit-scrollbar {
@@ -183,6 +205,7 @@ div{
   text-align: center;
   width: 53%;
   margin-top: -102px;
+
 }
 
 
@@ -193,6 +216,7 @@ div{
   justify-content: space-between;
   margin-right: 167px;
   padding-top: 15px;
+
 }
 
 
@@ -203,6 +227,7 @@ div{
   font-weight: bold;
   text-decoration: none;
   margin-right: 23px;
+
 }
 
 .appstore {
@@ -212,6 +237,7 @@ height: 44px;
 padding-top: 60px;
 padding-right: 24.37px;
 margin-top: -22px;
+
 }
 
 .googleplay {
@@ -220,11 +246,13 @@ width: 134px;
 height: 44px;
 padding-top: 60px;
 margin-top: -22px;
+
 }
 
 body {
   height: 767px;
   background: bottom left no-repeat url("img/Group (3)1366.png"), top right no-repeat url("img/Group (4)1366.png");
+
 
 }
 
@@ -232,29 +260,37 @@ body {
   .wrapper {
     margin: auto;
     width: 80%;
+
   }
+}
 
   .header {
     margin-bottom: 80px;
+
   }
 
 .logo {
-  font: 700 28px/37px 'PT_Sans_Caption';
+  font: 700 43px/136px 'PT_Sans_Caption';
   font-weight: bold;
-  margin-right: 595px;
-  background-size: 35px;
+  margin-right: 780px;
+  background-size: 50px;
+  padding-bottom: 30px;
+
 }
 
 
 .main {
   background: bottom center no-repeat url("Frame/iPhone XS.SVG");
-  padding-bottom: 425px;
-  background-size: 42vw 31vw;
+  padding-bottom: 700px;
+  margin-left: 700px;
+  background-size: 55vw 50vw;
   background-image: 20px;
+
 }
 
 ::-webkit-scrollbar {
   width: 0;
+
 }
 
 .main__title {
@@ -264,7 +300,8 @@ body {
   font-size: 32px;
   text-align: center;
   width: 65%;
-  margin-top: -102px;
+  margin-top: -92px;
+
 }
 
 
@@ -273,17 +310,19 @@ body {
   align-items: center;
   width: 13%;
   justify-content: space-between;
-  margin-right: 163px;
+  margin-right: -350px;
   padding-top: 16px;
+
 }
 
 
 .menu__item {
-  font: 700 14px/25px 'PT_Sans_Caption';
+  font: 700 24px/25px 'PT_Sans_Caption';
   position: relative;
   font-style: normal;
   font-weight: bold;
   text-decoration: none;
+
 }
 
 .appstore {
@@ -293,6 +332,7 @@ height: 44px;
 padding-top: 60px;
 padding-right: 24.37px;
 margin-top: -22px;
+
 }
 
 .googleplay {
@@ -301,11 +341,13 @@ width: 134px;
 height: 44px;
 padding-top: 60px;
 margin-top: -22px;
+
 }
 
 body {
   height: 770px;
   background: bottom left no-repeat url("img/Group (5).png"), top right no-repeat url("img/Group (6).png");
+
 
 }
 
@@ -317,12 +359,14 @@ body {
   flex-direction: column;
   position: absolute;
   z-index: 1;
+
   }
 
   .menu__item {
   font: 700 30px/35px 'MuseoSansCyrl700';
   display: block;
   margin: 0 0 24px 0;
+
   }
 
   .logo {
@@ -331,6 +375,7 @@ body {
     margin-left: -61px;
     padding-right: 30px;
     background-size: 27px;
+
     }
 
     .main {
@@ -340,6 +385,7 @@ body {
       margin-right: 190px;
       background-size: 42vw 42vw;
       background-image: 20px;
+
     }
 
     .main__title {
@@ -351,6 +397,7 @@ body {
       width: 75%;
       padding-top: 339px;
       margin-right: 25px;
+
     }
 
     .appstore {
@@ -360,6 +407,7 @@ body {
     padding-top: 63px;
     padding-right: 3.37px;
     margin-top: -42px;
+
     }
 
     .googleplay {
@@ -368,6 +416,7 @@ body {
     height: 44px;
     padding-top: 94px;
     margin-top: -72px;
+
     }
 
 
@@ -381,6 +430,7 @@ body {
      height: 10px;
      cursor: pointer;
      z-index: 1;
+
    }
 
    .menu__burger > span,
@@ -393,43 +443,53 @@ body {
      width: 12px;
      height: 2px;
      background-color: #FF9100;
+
    }
    .menu__burger > span::before,
    .menu__burger > span::after {
      content: '';
      display: block;
      top: 30px;
+
    }
 
    .menu__burger span::before {
      transform: translateY(-5px);
+
    }
    .menu__burger span::after {
      transform: translateY(-2px);
+
    }
 
    .menu__burger_active span:before {
      transform: rotate(-35deg);
+
      width: 10px;
      transform-origin: left bottom;
+
    }
    .menu__burger_active span:after {
      transform: rotate(35deg);
      width: 10px;
      transform-origin: left top;
+
    }
 
 
    #checkbox:checked ~ .menu__burger > span {
     transform: rotate(45deg);
+
   }
   #checkbox:checked ~ .menu__burger > span::before {
     top: 0;
     transform: rotate(0);
+
   }
   #checkbox:checked ~ .menu__burger > span::after {
     top: 0;
     transform: rotate(90deg);
+
   }
 
   #checkbox:checked ~ .menu {
@@ -441,12 +501,14 @@ body {
     justify-content: space-around;
     margin: 0;
     z-index: 0;
+
   }
 
   #checkbox:checked ~ .logo {
     display: none;
+
   }
- }
+
 
  .menu__box {
      display: block;
@@ -462,9 +524,12 @@ body {
      text-align: center;
      background-color: white;
      z-index: 5;
+
      }
 
 
   body {
     background: white;
+
+  }
 }
