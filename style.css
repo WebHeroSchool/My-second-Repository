@@ -1,9 +1,3 @@
-.wrapper {
-  margin: auto;
-  width: 80%;
-
-}
-
 .header {
   display: flex;
   justify-content: space-between;
@@ -15,16 +9,15 @@
     font-family:'PT_Sans_Caption';
     font-weight: bold;
     font-size: 35px;
-    padding-left: 158px;
-    padding-top: 37px;
-    padding-bottom: 30px;
-    margin-right: 980px;
+    padding-left: 224px;
+    padding-top: 36px;
+    padding-bottom: 40px;
+    margin-right: 995px;
     background-repeat: no-repeat;
     width: 175.76px;
     background: url("img/Group 2.png") no-repeat;
-    background-size: 50px;
+    background-size: 40px;
     background-position: center;
-
 }
 
 
@@ -44,7 +37,7 @@
 
 .main {
   background: bottom center no-repeat url("Frame/iPhone XS.SVG");
-  padding-bottom: 570px;
+  padding-bottom: 564px;
   background-size: 25vw 25vw;
   background-image: 20px;
 
@@ -61,10 +54,9 @@
   font-style: normal;
   font-size: 40px;
   text-align: center;
-  width: 44%;
-  padding-top: 75px;
+  width: 46%;
+  padding-top: 69px;
   margin: auto;
-
 }
 
 
@@ -74,9 +66,8 @@
   align-items: center;
   width: 16%;
   justify-content: space-between;
-  margin-right: 205px;
-  padding-top: 21px;
-
+  margin-right: 204px;
+  padding-top: 15px;
 }
 
 .menu__item {
@@ -139,15 +130,15 @@ body {
 }
 
 .appstore {
-padding-top: 60px;
-padding-right: 35.37px;
-margin-top: -4px;
+padding-top: 55px;
+padding-right: 30.37px;
+margin-left: 747px;
 
 }
 
 .googleplay {
-padding-top: 60px;
-margin-top: -4px;
+padding-top: 40px;
+margin-top: 14px;
 
 }
 
@@ -156,18 +147,9 @@ margin-top: -4px;
   height: 150px;
 
 }
-div{
-  display: flex;
-  justify-content: center;
 
-}
 
 @media (max-width: 1366px) {
-  .wrapper {
-    margin: auto;
-    width: 80%;
-
-  }
 
   .header {
     margin-bottom: 80px;
@@ -175,18 +157,19 @@ div{
   }
 
 .logo {
-  font: 700 20px/37px 'PT_Sans_Caption';
+  font: 700 27px/35px 'PT_Sans_Caption';
   font-weight: bold;
-  padding-left: 118px;
-  margin-right: 429px;
+  padding-left: 218px;
+  margin-right: 390px;
   background-size: 34px;
+  margin-left: -40px;
 
 }
 
 
 .main {
   background: bottom center no-repeat url("Frame/iPhone XS.SVG");
-  padding-bottom: 427px;
+  padding-bottom: 421px;
   background-size: 28vw 27vw;
   background-image: 20px;
 
@@ -204,7 +187,7 @@ div{
   font-size: 32px;
   text-align: center;
   width: 53%;
-  margin-top: -102px;
+  margin-top: -105px;
 
 }
 
@@ -215,7 +198,7 @@ div{
   width: 18%;
   justify-content: space-between;
   margin-right: 167px;
-  padding-top: 15px;
+  padding-top: 8px;
 
 }
 
@@ -237,16 +220,19 @@ height: 44px;
 padding-top: 60px;
 padding-right: 24.37px;
 margin-top: -22px;
+margin-left: 537px;
 
 }
 
 .googleplay {
 display: inline-block;
 width: 134px;
-height: 44px;
+height: 45px;
 padding-top: 60px;
 margin-top: -22px;
+margin-left: -4px;
 
+  }
 }
 
 body {
@@ -257,33 +243,22 @@ body {
 }
 
 @media (max-width: 1170px) {
-  .wrapper {
-    margin: auto;
-    width: 80%;
 
-  }
-}
-
-  .header {
-    margin-bottom: 80px;
-
-  }
 
 .logo {
-  font: 700 43px/136px 'PT_Sans_Caption';
+  font: 700 27px/35px 'PT_Sans_Caption';
   font-weight: bold;
-  margin-right: 780px;
-  background-size: 50px;
-  padding-bottom: 30px;
+  margin-left: -140px;
+  background-size: 34px;
+  padding-bottom: 38px;
 
 }
 
 
 .main {
   background: bottom center no-repeat url("Frame/iPhone XS.SVG");
-  padding-bottom: 700px;
-  margin-left: 700px;
-  background-size: 55vw 50vw;
+  padding-bottom: 437px;
+  background-size: 33vw 34vw;
   background-image: 20px;
 
 }
@@ -300,7 +275,7 @@ body {
   font-size: 32px;
   text-align: center;
   width: 65%;
-  margin-top: -92px;
+  margin-top: -103px;
 
 }
 
@@ -310,14 +285,14 @@ body {
   align-items: center;
   width: 13%;
   justify-content: space-between;
-  margin-right: -350px;
-  padding-top: 16px;
+  margin-right: 162px;
+  padding-top: 9px;
 
 }
 
 
 .menu__item {
-  font: 700 24px/25px 'PT_Sans_Caption';
+  font: 700 14px/25px 'PT_Sans_Caption';
   position: relative;
   font-style: normal;
   font-weight: bold;
@@ -327,11 +302,12 @@ body {
 
 .appstore {
 display: inline-block;
-width: 134px;
+width: 210px;
 height: 44px;
 padding-top: 60px;
 padding-right: 24.37px;
 margin-top: -22px;
+margin-left: 400px;
 
 }
 
@@ -341,6 +317,7 @@ width: 134px;
 height: 44px;
 padding-top: 60px;
 margin-top: -22px;
+margin-left: -42px;
 
 }
 
@@ -349,9 +326,16 @@ body {
   background: bottom left no-repeat url("img/Group (5).png"), top right no-repeat url("img/Group (6).png");
 
 
+  }
 }
 
 @media (max-width: 667px) {
+
+  body {
+    background: white;
+
+  }
+
   .menu {
   display: none;
   text-align: center;
@@ -504,7 +488,7 @@ body {
 
   }
 
-  #checkbox:checked ~ .logo {
+  #checkbox {
     display: none;
 
   }
