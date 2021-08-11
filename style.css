@@ -331,10 +331,6 @@ body {
 
 @media (max-width: 667px) {
 
-  body {
-    background: white;
-
-  }
 
   .menu {
   display: none;
