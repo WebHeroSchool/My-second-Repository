@@ -337,17 +337,17 @@ body {
   }
 
   .logo {
-    font: 700 19px/67px 'PT_Sans_Caption';
+    font: 700 20px/61px 'PT_Sans_Caption';
     font-weight: bold;
-    margin-left: -61px;
-    padding-right: 30px;
-    background-size: 27px;
+    margin-left: -144px;
+    padding-right: 130px;
+    background-size: 26px;
 
     }
 
     .main {
       background: bottom center no-repeat url("Frame/iPhone XS.SVG");
-      padding-bottom: 145px;
+      padding-bottom: 141px;
       margin-top: -122%;
       margin-right: 190px;
       background-size: 42vw 42vw;
@@ -362,27 +362,28 @@ body {
       font-size: 12px;
       text-align: center;
       width: 75%;
-      padding-top: 339px;
+      padding-top: 335px;
       margin-right: 25px;
 
     }
 
     .appstore {
     display: inline-block;
-    width: 55px;
+    width: 53px;
     height: 44px;
     padding-top: 63px;
-    padding-right: 3.37px;
-    margin-top: -42px;
+    padding-right: 43.37px;
+    margin-top: -63px;
+    margin-left: 36px;
 
     }
 
     .googleplay {
     display: inline-block;
-    width: 56px;
+    width: 55px;
     height: 44px;
     padding-top: 94px;
-    margin-top: -72px;
+    margin-top: -73px;
 
     }
 
