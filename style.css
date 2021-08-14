@@ -224,7 +224,7 @@ margin-left: -4px;
 
 body {
   height: 767px;
-  background: bottom left no-repeat url("img/Group (3)1366.png"), top right no-repeat url("img/Group (4)1366.png");
+  background: bottom no-repeat url("img/Group (3)1366.png"), top right no-repeat url("img/Group (4)1366.png");
 
 
 }
@@ -469,6 +469,7 @@ body {
     justify-content: space-around;
     margin: 0;
     z-index: 0;
+    position: fixed;
 
   }
 
