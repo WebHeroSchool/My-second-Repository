@@ -26,7 +26,6 @@
   background: bottom center no-repeat url("Frame/iPhone XS.SVG");
   padding-bottom: 564px;
   background-size: 25vw 25vw;
-  background-image: 20px;
 
 }
 
@@ -48,7 +47,7 @@
 
 
 
-.menu {
+.menu { 
   display: flex;
   align-items: center;
   width: 16%;
