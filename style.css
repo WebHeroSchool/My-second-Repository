@@ -109,10 +109,7 @@
 
 
 body {
-  background-image: url("img/Group (1).png"), url("img/Group (2).png");
-  background-repeat: no-repeat;
-  background-position: left center, right center;
-
+  background: left no-repeat url("img/Group (1).png"), right no-repeat url("img/Group (2).png");
   margin: 0;
 }
 
@@ -224,7 +221,7 @@ margin-left: -4px;
 
 body {
   height: 767px;
-  background: bottom no-repeat url("img/Group (3)1366.png"), top right no-repeat url("img/Group (4)1366.png");
+  background: bottom left no-repeat url("img/Group (3)1366.png"), top right no-repeat url("img/Group (4)1366.png");
 
 
 }
