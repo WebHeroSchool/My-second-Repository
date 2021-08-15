@@ -382,11 +382,11 @@ margin-left: -42px;
     .menu__burger {
      display: flex;
      align-items: center;
-     position: fixed;
-     top: 50px;
-     left: 83%;
-     width: 14px;
-     height: 10px;
+     position: absolute;
+     top: 46px;
+     left: 73%;
+     width: 76px;
+     height: 11px;
      cursor: pointer;
      z-index: 1;
 
@@ -397,10 +397,10 @@ margin-left: -42px;
    .menu__burger > span::after {
      display: block;
      position: absolute;
-     top: 440%; margin-top: -31px;
-     left: 50%; margin-left: -10px;
+     top: 433%; margin-top: -31px;
+     left: 62%; margin-left: -11px;
      width: 25px;
-     height: 2px;
+     height: 3px;
      background-color: #FF9100;
 
    }
@@ -408,17 +408,17 @@ margin-left: -42px;
    .menu__burger > span::after {
      content: '';
      display: block;
-     top: 30px;
-     left: 10px;
+     top: 40px;
+     left: 13px;
 
    }
 
    .menu__burger span::before {
-     transform: translateY(-6px);
+     transform: translateY(-3px);
 
    }
    .menu__burger span::after {
-     transform: translateY(-13px);
+     transform: translateY(-16px);
 
    }
 
