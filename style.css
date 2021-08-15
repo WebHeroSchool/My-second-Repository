@@ -47,7 +47,7 @@
 
 
 
-.menu { 
+.menu {
   display: flex;
   align-items: center;
   width: 16%;
@@ -132,7 +132,13 @@ margin-top: 14px;
 }
 
 
-@media (max-width: 1366px) {
+@media (max-width: 1367px) {
+  body {
+    height: 767px;
+    background: bottom left no-repeat url("img/Group (3)1366.png"), top right no-repeat url("img/Group (4)1366.png");
+
+
+    }
 
   .header {
     margin-bottom: 80px;
@@ -214,18 +220,16 @@ height: 45px;
 padding-top: 60px;
 margin-top: -22px;
 margin-left: -4px;
-
   }
 }
 
-body {
-  height: 767px;
-  background: bottom left no-repeat url("img/Group (3)1366.png"), top right no-repeat url("img/Group (4)1366.png");
 
+@media (max-width: 1171px) {
+  body {
+    height: 770px;
+    background: bottom left no-repeat url("img/Group (5).png"), top right no-repeat url("img/Group (6).png");
 
-}
-
-@media (max-width: 1170px) {
+  }
 
 
 .logo {
@@ -302,13 +306,6 @@ padding-top: 60px;
 margin-top: -22px;
 margin-left: -42px;
 
-}
-
-body {
-  height: 770px;
-  background: bottom left no-repeat url("img/Group (5).png"), top right no-repeat url("img/Group (6).png");
-
-
   }
 }
 
@@ -333,21 +330,22 @@ body {
   }
 
   .logo {
-    font: 700 20px/61px 'PT_Sans_Caption';
+    font: 700 40px/60px 'PT_Sans_Caption';
     font-weight: bold;
-    margin-left: -144px;
-    padding-right: 130px;
-    background-size: 26px;
+    padding-left: 288px;
+    padding-bottom: 40px;
+    padding-right: 109px;
+    background-size: 54px;
+    margin-top: 68px;
 
     }
 
     .main {
       background: bottom center no-repeat url("Frame/iPhone XS.SVG");
-      padding-bottom: 141px;
-      margin-top: -122%;
-      margin-right: 190px;
-      background-size: 42vw 42vw;
-      background-image: 20px;
+      padding-bottom: 300px;
+      margin-right: 5px;
+      background-size: 85vw 80vw;
+
 
     }
 
@@ -355,31 +353,28 @@ body {
       font-family:'PT_Sans_Caption';
       font-weight: bold;
       font-style: normal;
-      font-size: 12px;
+      font-size: 24px;
       text-align: center;
       width: 75%;
-      padding-top: 335px;
-      margin-right: 25px;
+      padding-top: 2px;
+      margin-right: 49px;
 
     }
 
     .appstore {
     display: inline-block;
-    width: 53px;
-    height: 44px;
-    padding-top: 63px;
-    padding-right: 43.37px;
-    margin-top: -63px;
-    margin-left: 36px;
+    width: 110px;
+    height: 45px;
+    padding-top: 84px;
+    padding-right: 48.37px;
+    margin-left: 70px;
 
     }
 
     .googleplay {
     display: inline-block;
-    width: 55px;
-    height: 44px;
-    padding-top: 94px;
-    margin-top: -73px;
+    width: 109px;
+    height: 45px;
 
     }
 
@@ -387,9 +382,9 @@ body {
     .menu__burger {
      display: flex;
      align-items: center;
-     position: absolute;
-     top: 56px;
-     left: 41%;
+     position: fixed;
+     top: 50px;
+     left: 83%;
      width: 14px;
      height: 10px;
      cursor: pointer;
@@ -402,9 +397,9 @@ body {
    .menu__burger > span::after {
      display: block;
      position: absolute;
-     top: 90%; margin-top: -31px;
-     left: 90%; margin-left: -10px;
-     width: 12px;
+     top: 440%; margin-top: -31px;
+     left: 50%; margin-left: -10px;
+     width: 25px;
      height: 2px;
      background-color: #FF9100;
 
@@ -414,15 +409,16 @@ body {
      content: '';
      display: block;
      top: 30px;
+     left: 10px;
 
    }
 
    .menu__burger span::before {
-     transform: translateY(-5px);
+     transform: translateY(-6px);
 
    }
    .menu__burger span::after {
-     transform: translateY(-2px);
+     transform: translateY(-13px);
 
    }
 
@@ -446,26 +442,25 @@ body {
 
   }
   #checkbox:checked ~ .menu__burger > span::before {
-    top: 0;
     transform: rotate(0);
 
   }
+
   #checkbox:checked ~ .menu__burger > span::after {
-    top: 0;
     transform: rotate(90deg);
 
   }
 
   #checkbox:checked ~ .menu {
-    display: flex;
+    display: block;
     background-color: #fff;
     padding: 0;
     width: 100%;
-    height: 100vh;
+    height: 104vh;
     justify-content: space-around;
     margin: 0;
     z-index: 0;
-    position: fixed;
+
 
   }
 
@@ -474,23 +469,6 @@ body {
 
   }
 
-
- .menu__box {
-     display: block;
-     position: fixed;
-     visibility: hidden;
-     top: 0;
-     left: -100%;
-     width: 100%;
-     height: 100%;
-     margin: 0;
-     padding: 175px 0;
-     list-style: none;
-     text-align: center;
-     background-color: white;
-     z-index: 5;
-
-     }
 
 
   body {
