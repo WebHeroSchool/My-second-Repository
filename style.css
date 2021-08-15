@@ -383,8 +383,8 @@ margin-left: -42px;
      display: flex;
      align-items: center;
      position: absolute;
-     top: 46px;
-     left: 73%;
+     top: 41px;
+     left: 74%;
      width: 76px;
      height: 11px;
      cursor: pointer;
@@ -397,8 +397,8 @@ margin-left: -42px;
    .menu__burger > span::after {
      display: block;
      position: absolute;
-     top: 433%; margin-top: -31px;
-     left: 62%; margin-left: -11px;
+     top: 431%; margin-top: -32px;
+     left: 65%; margin-left: -11px;
      width: 25px;
      height: 3px;
      background-color: #FF9100;
@@ -408,8 +408,8 @@ margin-left: -42px;
    .menu__burger > span::after {
      content: '';
      display: block;
-     top: 40px;
-     left: 13px;
+     top: 42px;
+     left: 11px;
 
    }
 
