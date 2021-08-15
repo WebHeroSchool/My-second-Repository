@@ -325,7 +325,7 @@ margin-left: -42px;
   .menu__item {
   font: 700 30px/35px 'MuseoSansCyrl700';
   display: block;
-  margin: 0 0 24px 0;
+  margin: 0 0 26px 0;
 
   }
 
@@ -460,9 +460,13 @@ margin-left: -42px;
     justify-content: space-around;
     margin: 0;
     z-index: 0;
+    padding-top: 55%;
 
 
   }
+
+
+
 
   #checkbox {
     display: none;
