@@ -9,14 +9,14 @@
     font-family:'PT_Sans_Caption';
     font-weight: bold;
     font-size: 35px;
-    margin-left: -490px;
-    padding-top: 36px;
+    margin-left: 20px;
+    padding-top: 37px;
     padding-bottom: 40px;
-    padding-left: 219px;
+    padding-left: 224px;
     background-repeat: no-repeat;
-    width: 175.76px;
+    width: 168.76px;
     background: url("img/Group 2.png") no-repeat;
-    background-size: 44px;
+    background-size: 43px;
     background-position: center;
 }
 
@@ -41,7 +41,7 @@
   font-size: 40px;
   text-align: center;
   width: 46%;
-  padding-top: 69px;
+  padding-top: 66px;
   margin: auto;
 }
 
@@ -148,10 +148,10 @@ margin-top: 14px;
   }
 
 .logo {
-  font: 700 27px/35px 'PT_Sans_Caption';
+  font: 700 27px/33px 'PT_Sans_Caption';
   font-weight: bold;
-  padding-left: 218px;
-  margin-right: 390px;
+  padding-left: 300px;
+  padding-right: 80px;
   background-size: 34px;
   margin-left: -40px;
 
@@ -160,7 +160,7 @@ margin-top: 14px;
 
 .main {
   background: bottom center no-repeat url("Frame/iPhone XS.SVG");
-  padding-bottom: 421px;
+  padding-bottom: 425px;
   background-size: 28vw 27vw;
   background-image: 20px;
 
@@ -178,7 +178,7 @@ margin-top: 14px;
   font-size: 32px;
   text-align: center;
   width: 53%;
-  margin-top: -105px;
+  margin-top: -102px;
 
 }
 
@@ -188,7 +188,7 @@ margin-top: 14px;
   align-items: center;
   width: 18%;
   justify-content: space-between;
-  margin-right: 167px;
+  margin-right: 168px;
   padding-top: 8px;
 
 }
@@ -200,7 +200,7 @@ margin-top: 14px;
   font-style: normal;
   font-weight: bold;
   text-decoration: none;
-  margin-right: 23px;
+  margin-right: 24px;
 
 }
 
@@ -235,19 +235,20 @@ margin-left: -4px;
 
 
 .logo {
-  font: 700 27px/35px 'PT_Sans_Caption';
+  font: 700 27px/42px 'PT_Sans_Caption';
   font-weight: bold;
-  margin-left: -140px;
+  margin-left: -138px;
+  padding-top: 33px;
   background-size: 34px;
-  padding-bottom: 38px;
+  padding-bottom: 36px;
 
 }
 
 
 .main {
   background: bottom center no-repeat url("Frame/iPhone XS.SVG");
-  padding-bottom: 437px;
-  background-size: 33vw 34vw;
+  padding-bottom: 444px;
+  background-size: 32vw 35vw;
   background-image: 20px;
 
 }
@@ -275,7 +276,7 @@ margin-left: -4px;
   width: 13%;
   justify-content: space-between;
   margin-right: 162px;
-  padding-top: 9px;
+  padding-top: 5px;
 
 }
 
@@ -286,6 +287,7 @@ margin-left: -4px;
   font-style: normal;
   font-weight: bold;
   text-decoration: none;
+  margin-right: 23px;
 
 }
 
@@ -334,11 +336,11 @@ margin-left: -42px;
   .logo {
     font: 700 40px/60px 'PT_Sans_Caption';
     font-weight: bold;
-    padding-left: 288px;
-    padding-bottom: 40px;
-    padding-right: 109px;
+    padding-left: 285px;
+    padding-bottom: 35px;
+    padding-right: 46px;
     background-size: 54px;
-    margin-top: 68px;
+    margin-top: 71px;
 
     }
 
@@ -358,8 +360,8 @@ margin-left: -42px;
       font-size: 24px;
       text-align: center;
       width: 75%;
-      padding-top: 2px;
-      margin-right: 49px;
+      padding-top: 8px;
+      margin-right: 50px;
 
     }
 
@@ -368,7 +370,7 @@ margin-left: -42px;
     width: 110px;
     height: 45px;
     padding-top: 84px;
-    padding-right: 48.37px;
+    padding-right: 46.37px;
     margin-left: 70px;
 
     }
@@ -386,7 +388,7 @@ margin-left: -42px;
       display: block;
       position: fixed;
       top: 0;
-      right: 80px;
+      right: 77px;
       z-index: 1;
     }
 
@@ -404,7 +406,7 @@ margin-left: -42px;
     .menu-wrap .hamburger {
       position: absolute;
       top: 43px;
-      right: -47px;
+      right: -44px;
       z-index: 1;
       width: 25px;
       height: 25px;
@@ -431,7 +433,7 @@ margin-left: -42px;
       content: '';
       position: absolute;
       z-index: 5;
-      top: -7px;
+      top: -8px;
       width: 100%;
       height: 3px;
       background: inherit;
@@ -439,7 +441,7 @@ margin-left: -42px;
 
     /* moves 1 line down*/
       .menu-wrap .hamburger > div:after {
-        top: 7px;
+        top: 6px;
       }
 
     /* toggler animate*/
@@ -481,7 +483,7 @@ margin-left: -42px;
     .menu-wrap .menu {
       position: fixed;
       top: 0;
-      right: -50px;
+      right: -37px;
       width: 100%;
       height: 100%;
       visibility: hidden;
@@ -489,6 +491,7 @@ margin-left: -42px;
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-top: -20px;
     }
 
     .menu-wrap .menu > div {
