@@ -45,7 +45,9 @@
   margin: auto;
 }
 
-
+.menu-wrap {
+  display: none;
+}
 
 .menu {
   display: flex;
@@ -318,7 +320,7 @@ margin-left: -42px;
   margin-top: 30px;
   flex-direction: column;
   position: absolute;
-  z-index: 1;
+  /* z-index: 1; */
 
   }
 
@@ -378,107 +380,139 @@ margin-left: -42px;
 
     }
 
+    /*Гамбургер*/
 
-    .menu__burger {
-     display: flex;
-     align-items: center;
-     position: absolute;
-     top: 41px;
-     left: 74%;
-     width: 76px;
-     height: 11px;
-     cursor: pointer;
-     z-index: 1;
+    .menu-wrap {
+      display: block;
+      position: fixed;
+      top: 0;
+      right: 80px;
+      z-index: 1;
+    }
 
-   }
+    .menu-wrap .toggler {
+      position: absolute;
+      top: 25px;
+      left: 0;
+      z-index: 2;
+      cursor: pointer;
+      width: 50px;
+      height: 50px;
+      opacity: 0;
+    }
 
-   .menu__burger > span,
-   .menu__burger > span::before,
-   .menu__burger > span::after {
-     display: block;
-     position: absolute;
-     top: 450%; margin-top: -29px;
-     left: 68%; margin-left: -18px;
-     width: 25px;
-     height: 3px;
-     background-color: #FF9100;
+    .menu-wrap .hamburger {
+      position: absolute;
+      top: 43px;
+      right: -47px;
+      z-index: 1;
+      width: 25px;
+      height: 25px;
+      padding: .5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
-   }
-   .menu__burger > span::before,
-   .menu__burger > span::after {
-     content: '';
-     display: block;
-     top: 39px;
-     left: 18px;
+    /*hamburger line*/
+    .menu-wrap .hamburger > div {
+      position: relative;
+      width: 100%;
+      height: 3px;
+      background-color: #FF9100;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
-   }
+    /* top and bottom lines*/
+    .menu-wrap .hamburger > div:before,
+    .menu-wrap .hamburger > div:after {
+      content: '';
+      position: absolute;
+      z-index: 5;
+      top: -7px;
+      width: 100%;
+      height: 3px;
+      background: inherit;
+      }
 
-   .menu__burger span::before {
-     transform: translateY(-3px);
+    /* moves 1 line down*/
+      .menu-wrap .hamburger > div:after {
+        top: 7px;
+      }
 
-   }
-   .menu__burger span::after {
-     transform: translateY(-16px);
+    /* toggler animate*/
+    .menu-wrap .toggler:checked + .hamburger > div {
+      transform: rotate(135deg);
+    }
 
-   }
+    /* turn lines into X*/
+    .menu-wrap .toggler:checked + .hamburger > div:before,
+    .menu-wrap .toggler:checked + .hamburger > div:after {
+      top: 0;
+      transform: rotate(90deg);
+    }
 
-   .menu__burger_active span:before {
-     transform: rotate(-35deg);
+    /* Rotate on hover when checked*/
+    .menu-wrap .toggler:checked:hover + .hamburger > div {
+      transform: rotate(225deg);
+    }
 
-     width: 10px;
-     transform-origin: left bottom;
+    /* show menu*/
+      .menu-wrap .toggler:checked ~ .menu {
+        visibility: visible;
+        background-color: white;
+        width: 100%;
+        margin-right: 15%;
+      }
 
-   }
-   .menu__burger_active span:after {
-     transform: rotate(35deg);
-     width: 10px;
-     transform-origin: left top;
+      .menu-wrap .toggler:checked ~ .menu > div {
+        transform: scale(1);
+        transition-duration: var(--menu-speed);
+      }
 
-   }
-
-
-   #checkbox:checked ~ .menu__burger > span {
-    transform: rotate(45deg);
-
-  }
-  #checkbox:checked ~ .menu__burger > span::before {
-    top: 31px;
-    transform: rotate(0);
-
-  }
-
-  #checkbox:checked ~ .menu__burger > span::after {
-
-    transform: rotate(90deg);
-
-  }
-
-  #checkbox:checked ~ .menu {
-    display: block;
-    background-color: #fff;
-    padding: 0;
-    width: 100%;
-    height: 104vh;
-    justify-content: space-around;
-    margin: 0;
-    z-index: 0;
-    padding-top: 55%;
-
-
-  }
-
-
-
-
-  #checkbox {
-    display: none;
-
-  }
+      .menu-wrap .toggler:checked ~ .menu > div > div {
+        opacity: 1;
+        transition: opacity .4s ease;
+      }
 
 
+    .menu-wrap .menu {
+      position: fixed;
+      top: 0;
+      right: -50px;
+      width: 100%;
+      height: 100%;
+      visibility: hidden;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .menu-wrap .menu > div {
+      border-radius: 50%;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex: none;
+      align-items: center;
+      justify-content: center;
+      transform: scale(0);
+      transition: all 0.4s ease;
+    }
+
+    .menu-wrap .menu > div > div {
+      text-align: center;
+      max-width: 90vw;
+      max-height: 100vh;
+      opacity: 0;
+      transition: opacity 0.4s ease;
+    }
 
   body {
     background: white;
 
-  }
+
 }
