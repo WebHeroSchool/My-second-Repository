@@ -160,8 +160,8 @@ margin-top: 14px;
 
 .main {
   background: bottom center no-repeat url("Frame/iPhone XS.SVG");
-  padding-bottom: 415px;
-  background-size: 55% 55%;
+  padding-bottom: 440px;
+  background-size: 28% 60%;
 
 }
 
@@ -247,7 +247,7 @@ margin-left: -4px;
 .main {
   background: bottom center no-repeat url("Frame/iPhone XS.SVG");
   padding-bottom: 444px;
-  background-size: 32vw 35vw;
+  background-size: 32% 60%;
 
 }
 
@@ -345,9 +345,9 @@ margin-left: -42px;
 
     .main {
       background: bottom center no-repeat url("Frame/iPhone XS.SVG");
-      padding-bottom: 300px;
+      padding-bottom: 307px;
       margin-right: 5px;
-      background-size: 85vw 80vw;
+      background-size: 85% 60%;
 
 
     }
@@ -359,7 +359,7 @@ margin-left: -42px;
       font-size: 24px;
       text-align: center;
       width: 75%;
-      padding-top: 8px;
+      padding-top: 6px;
       margin-right: 50px;
 
     }
