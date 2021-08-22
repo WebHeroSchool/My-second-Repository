@@ -115,15 +115,15 @@ body {
 }
 
 .appstore {
-padding-top: 55px;
-padding-right: 30.37px;
-margin-left: 747px;
+  padding-top: 55px;
+  padding-right: 30.37px;
+  margin-left: 747px;
 
 }
 
 .googleplay {
-padding-top: 40px;
-margin-top: 14px;
+  padding-top: 40px;
+  margin-top: 14px;
 
 }
 
@@ -204,23 +204,23 @@ margin-top: 14px;
 }
 
 .appstore {
-display: inline-block;
-width: 134px;
-height: 44px;
-padding-top: 60px;
-padding-right: 24.37px;
-margin-top: -22px;
-margin-left: 537px;
+  display: inline-block;
+  width: 134px;
+  height: 44px;
+  padding-top: 60px;
+  padding-right: 24.37px;
+  margin-top: -22px;
+  margin-left: 537px;
 
 }
 
 .googleplay {
-display: inline-block;
-width: 134px;
-height: 45px;
-padding-top: 60px;
-margin-top: -22px;
-margin-left: -4px;
+  display: inline-block;
+  width: 134px;
+  height: 45px;
+  padding-top: 60px;
+  margin-top: -22px;
+  margin-left: -4px;
   }
 }
 
@@ -290,24 +290,24 @@ margin-left: -4px;
 }
 
 .appstore {
-display: inline-block;
-width: 210px;
-height: 44px;
-padding-top: 60px;
-padding-right: 24.37px;
-margin-top: -22px;
-margin-left: 400px;
+  display: inline-block;
+  width: 210px;
+  height: 44px;
+  padding-top: 60px;
+  padding-right: 24.37px;
+  margin-top: -22px;
+  margin-left: 400px;
+
 
 }
 
 .googleplay {
-display: inline-block;
-width: 134px;
-height: 44px;
-padding-top: 60px;
-margin-top: -22px;
-margin-left: -42px;
-
+  display: inline-block;
+  width: 134px;
+  height: 44px;
+  padding-top: 60px;
+  margin-top: -22px;
+  margin-left: -42px;
   }
 }
 
@@ -365,19 +365,19 @@ margin-left: -42px;
     }
 
     .appstore {
-    display: inline-block;
-    width: 110px;
-    height: 45px;
-    padding-top: 84px;
-    padding-right: 46.37px;
-    margin-left: 70px;
+      display: inline-block;
+       width: 110px;
+       height: 45px;
+       padding-top: 84px;
+       padding-right: 46.37px;
+       margin-left: 70px;
 
     }
 
     .googleplay {
-    display: inline-block;
-    width: 109px;
-    height: 45px;
+      display: inline-block;
+      width: 109px;
+      height: 45px;
 
     }
 
