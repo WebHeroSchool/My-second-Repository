@@ -1,3 +1,9 @@
+body {
+  background: left no-repeat url("img/Group (1).png"), right no-repeat url("img/Group (2).png");
+  margin: 0;
+}
+
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -43,6 +49,10 @@
   width: 46%;
   padding-top: 68px;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
 }
 
 .menu-wrap {
@@ -109,26 +119,22 @@
 }
 
 
+.apps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-
-
-
-body {
-  background: left no-repeat url("img/Group (1).png"), right no-repeat url("img/Group (2).png");
-  margin: 0;
 }
 
-
 .appstore {
-  padding-top: 55px;
-  padding-right: 30.37px;
-  margin-left: 747px;
+  width: 198px;
+  height: 75px;
+  padding-right: 33.37px;
 }
 
 .googleplay {
-  padding-top: 40px;
-  margin-top: 14px;
-
+  width: 198px;
+  height: 75px;
 
 }
 
@@ -148,7 +154,7 @@ body {
     }
 
   .header {
-    margin-bottom: 80px;
+    margin-bottom: 10px;
 
   }
 
@@ -165,8 +171,8 @@ body {
 
 .main {
   background: bottom center no-repeat url("Frame/iPhone XS.SVG");
-  padding-bottom: 440px;
-  background-size: 28% 60%;
+  padding-bottom: 540px;
+  background-size: 28% 80%;
 
 }
 
@@ -182,7 +188,11 @@ body {
   font-size: 32px;
   text-align: center;
   width: 53%;
-  margin-top: -102px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 37px;
+  padding-top: 35px;
 
 }
 
@@ -209,23 +219,16 @@ body {
 }
 
 .appstore {
-  display: inline-block;
-  width: 134px;
-  height: 44px;
-  padding-top: 60px;
-  padding-right: 24.37px;
-  margin-top: -22px;
-  margin-left: 537px;
+  width: 135px;
+  height: 47px;
+  padding-right: 22px;
 
 }
 
 .googleplay {
-  display: inline-block;
-  width: 134px;
-  height: 45px;
-  padding-top: 60px;
-  margin-top: -22px;
-  margin-left: -4px;
+  width: 139px;
+  height: 47px;
+
   }
 }
 
@@ -251,8 +254,8 @@ body {
 
 .main {
   background: bottom center no-repeat url("Frame/iPhone XS.SVG");
-  padding-bottom: 444px;
-  background-size: 32% 60%;
+  padding-bottom: 480px;
+  background-size: 32% 70%;
 
 }
 
@@ -268,7 +271,10 @@ body {
   font-size: 32px;
   text-align: center;
   width: 65%;
-  padding-top: 66px;
+  padding-top: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -295,24 +301,15 @@ body {
 }
 
 .appstore {
-  display: inline-block;
-  width: 210px;
-  height: 44px;
-  padding-top: 60px;
-  padding-right: 24.37px;
-  margin-top: -22px;
-  margin-left: 400px;
-
+  width: 135px;
+  height: 48px;
 
 }
 
 .googleplay {
-  display: inline-block;
   width: 134px;
   height: 44px;
-  padding-top: 60px;
-  margin-top: -22px;
-  margin-left: -42px;
+
   }
 }
 
@@ -350,9 +347,9 @@ body {
 
     .main {
       background: bottom center no-repeat url("Frame/iPhone XS.SVG");
-      padding-bottom: 307px;
+      padding-bottom: 337px;
       margin-right: 5px;
-      background-size: 85% 60%;
+      background-size: 85% 70%;
 
 
     }
@@ -365,24 +362,22 @@ body {
       text-align: center;
       width: 75%;
       padding-top: 6px;
-      margin-right: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
     }
 
     .appstore {
-      display: inline-block;
        width: 110px;
-       height: 45px;
-       padding-top: 84px;
-       padding-right: 46.37px;
-       margin-left: 70px;
+       height: 35px;
+       padding-right: 8px;
 
     }
 
     .googleplay {
-      display: inline-block;
-      width: 109px;
-      height: 45px;
+      width: 110px;
+      height: 35px;
 
     }
 
