@@ -109,21 +109,26 @@
 }
 
 
+
+
+
+
 body {
   background: left no-repeat url("img/Group (1).png"), right no-repeat url("img/Group (2).png");
   margin: 0;
 }
 
+
 .appstore {
   padding-top: 55px;
   padding-right: 30.37px;
   margin-left: 747px;
-
 }
 
 .googleplay {
   padding-top: 40px;
   margin-top: 14px;
+
 
 }
 
