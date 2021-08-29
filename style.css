@@ -47,9 +47,7 @@ body {
 
   }
 
-  ::-webkit-scrollbar {
-    width: 0;
-  }
+
 
 
   .main__title {
@@ -205,9 +203,7 @@ body {
 
   }
 
-  ::-webkit-scrollbar {
-    width: 0;
-  }
+
 
 
   .main__title {
@@ -305,10 +301,7 @@ body {
 
   }
 
-  ::-webkit-scrollbar {
-    width: 0;
-
-  }
+  
 
   .main__title {
     font-family:'PT_Sans_Caption';
