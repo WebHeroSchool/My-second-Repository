@@ -41,13 +41,15 @@ body {
 
 
   .main {
-    background: bottom center no-repeat url("Frame/iPhone XS.SVG");
+    background: bottom center no-repeat url("Frame/iPhone XS.svg");
     padding-bottom: 554px;
     background-size: 55% 52%;
 
   }
 
-
+  ::-webkit-scrollbar {
+      width: 0;
+    }
 
 
   .main__title {
@@ -197,13 +199,15 @@ body {
 
 
   .main {
-    background: bottom center no-repeat url("Frame/iPhone XS.SVG");
+    background: bottom center no-repeat url("Frame/iPhone XS.svg");
     padding-bottom: 445px;
     background-size: 28% 60%;
 
   }
 
-
+  ::-webkit-scrollbar {
+      width: 0;
+    }
 
 
   .main__title {
@@ -295,13 +299,15 @@ body {
 
 
   .main {
-    background: bottom center no-repeat url("Frame/iPhone XS.SVG");
+    background: bottom center no-repeat url("Frame/iPhone XS.svg");
     padding-bottom: 446px;
     background-size: 32% 60%;
 
   }
 
-  
+  ::-webkit-scrollbar {
+    width: 0;
+  }
 
   .main__title {
     font-family:'PT_Sans_Caption';
@@ -405,7 +411,7 @@ body {
 
 
     .main {
-      background: bottom center no-repeat url("Frame/iPhone XS.SVG");
+      background: bottom center no-repeat url("Frame/iPhone XS.svg");
       padding-bottom: 330px;
       margin-right: 5px;
       background-size: 85% 70%;
