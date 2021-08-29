@@ -12,3 +12,9 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+    font-family: 'MuseoSansCyrl700';
+    src: url('fonts/MuseoSansCyrl700.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
