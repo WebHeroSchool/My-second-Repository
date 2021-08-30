@@ -159,7 +159,6 @@ body {
 
   @media (max-width: 1367px) {
     body {
-      height: 767px;
       background: bottom left no-repeat url("img/Group (3)1366.png"), top right no-repeat url("img/Group (4)1366.png");
 
 
@@ -199,8 +198,7 @@ body {
 
 
   .main {
-    background: bottom center no-repeat url("Frame/iPhone XS.svg");
-    padding-bottom: 445px;
+    padding-bottom: 447px;
     background-size: 28% 60%;
 
   }
@@ -264,7 +262,6 @@ body {
 
   @media (max-width: 1171px) {
     body {
-      height: 770px;
       background: bottom left no-repeat url("img/Group (5).png"), top right no-repeat url("img/Group (6).png");
 
     }
@@ -299,8 +296,7 @@ body {
 
 
   .main {
-    background: bottom center no-repeat url("Frame/iPhone XS.svg");
-    padding-bottom: 446px;
+    padding-bottom: 447px;
     background-size: 32% 60%;
 
   }
@@ -411,10 +407,10 @@ body {
 
 
     .main {
-      background: bottom center no-repeat url("Frame/iPhone XS.svg");
-      padding-bottom: 330px;
+      background: bottom center no-repeat url("Frame/iPhone XS1.png");
       margin-right: 5px;
-      background-size: 85% 70%;
+      padding-bottom: 260px;
+      background-size: 90% 58%;
 
 
       }
