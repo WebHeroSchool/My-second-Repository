@@ -4,6 +4,10 @@ body {
 }
 
 
+.wrapper {
+  height: 100vh;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -42,8 +46,8 @@ body {
 
   .main {
     background: bottom center no-repeat url("Frame/iPhone XS.svg");
-    padding-bottom: 554px;
     background-size: 55% 52%;
+    height: calc(100vh - 85px);
 
   }
 
@@ -198,8 +202,8 @@ body {
 
 
   .main {
-    padding-bottom: 447px;
     background-size: 28% 60%;
+    height: calc(100vh - 90px);
 
   }
 
@@ -296,9 +300,8 @@ body {
 
 
   .main {
-    padding-bottom: 447px;
     background-size: 32% 60%;
-
+    height: calc(100vh - 88px);
   }
 
   ::-webkit-scrollbar {
@@ -354,6 +357,10 @@ body {
     }
   }
 
+
+
+
+
   @media (max-width: 667px) {
 
     .logo__text {
@@ -388,11 +395,6 @@ body {
 
     .menu {
     display: none;
-    text-align: center;
-    padding-top: 5px;
-    flex-direction: column;
-    position: absolute;
-    /* z-index: 1; */
 
     }
 
@@ -409,8 +411,8 @@ body {
     .main {
       background: bottom center no-repeat url("Frame/iPhone XS1.png");
       margin-right: 5px;
-      padding-bottom: 260px;
-      background-size: 90% 58%;
+      background-size: 320px;
+      height: calc(100vh - 170px);
 
 
       }
@@ -423,7 +425,7 @@ body {
         text-align: center;
         width: 75%;
         padding-top: 14px;
-        margin-right: 49px;
+        padding-right: 5px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -552,7 +554,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: -36px;
+        margin-top: -70px;
       }
 
       .menu-wrap .menu > div {
@@ -585,3 +587,17 @@ body {
 
 
   }
+}
+
+
+@media (max-width: 376px) {
+
+  .main {
+      background: bottom center no-repeat url("Frame/iPhone XS1.png");
+      margin-right: 5px;
+      background-size: 91% 58%;
+      height: calc(100vh - 170px);
+
+
+      }
+}
