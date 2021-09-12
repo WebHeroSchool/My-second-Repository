@@ -375,7 +375,7 @@ body {
 
     .logo__text {
       padding-top: 108px;
-      padding-left: 148px;
+      padding-left: 262px;
       font: 700 42px/52px 'PT_Sans_Caption';
       letter-spacing: -1.5px;
     }
@@ -391,13 +391,13 @@ body {
 
     .logo__rectangle_color_orange {
       top: 117px;
-      left: 94px;
+      left: 207px;
       background: #ffbE4d;
       opacity: .5;
     }
 
     .logo__rectangle_color_dark-orange {
-      left: 99px;
+      left: 212px;
       top: 119px;
       background: #E89C38;
       opacity: .5;
@@ -424,7 +424,7 @@ body {
     .main {
       background: bottom center no-repeat url("Frame/iPhone XS1.png");
       margin-right: 5px;
-      background-size: 320px;
+      background-size: 334px;
       height: calc(100vh - 170px);
 
 
@@ -608,11 +608,27 @@ body {
 
 @media (max-width: 376px) {
 
-  .main {
-      background: bottom center no-repeat url("Frame/iPhone XS1.png");
-      margin-right: 5px;
-      background-size: 91% 58%;
-      height: calc(100vh - 170px);
+  .logo__text {
+    padding-top: 108px;
+    padding-left: 148px;
+    font: 700 42px/52px 'PT_Sans_Caption';
+    letter-spacing: -1.5px;
+  }
+
+
+
+  .logo__rectangle_color_orange {
+    top: 117px;
+    left: 94px;
+    background: #ffbE4d;
+    opacity: .5;
+  }
+
+  .logo__rectangle_color_dark-orange {
+    left: 99px;
+    top: 119px;
+    background: #E89C38;
+    opacity: .5;
 
 
       }
