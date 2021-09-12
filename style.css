@@ -21,6 +21,7 @@ body {
   font: 700 38px/52px 'PT_Sans_Caption';
   letter-spacing: -1.5px;
 }
+
 .logo__rectangle {
   position: absolute;
   width: 28px;
@@ -29,12 +30,14 @@ body {
   transform: rotate(45deg);
   top: 53px;
 }
+
 .logo__rectangle_color_orange {
   top: 43px;
   left: 195px;
   background: #FFBE4D;
   opacity: .5;
 }
+
 .logo__rectangle_color_dark-orange {
   left: 200px;
   top: 46px;
@@ -44,7 +47,7 @@ body {
 
 
 
-  .main {
+ .main {
     background: bottom center no-repeat url("Frame/iPhone XS.svg");
     background-size: 55% 52%;
     height: calc(100vh - 85px);
@@ -107,6 +110,7 @@ body {
     cursor: pointer;
 
   }
+
   .menu__item:after {
     display: block;
     position: absolute;
@@ -168,7 +172,7 @@ body {
 
       }
 
-    .header {
+   .header {
       margin-bottom: 10px;
 
     }
@@ -179,6 +183,7 @@ body {
       font: 700 32px/52px 'PT_Sans_Caption';
       letter-spacing: -1.5px;
     }
+
     .logo__rectangle {
       position: absolute;
       width: 22px;
@@ -187,12 +192,14 @@ body {
       transform: rotate(45deg);
       top: 53px;
     }
+
     .logo__rectangle_color_orange {
       top: 43px;
       left: 226px;
       background: #FFBE4D;
       opacity: .5;
     }
+
     .logo__rectangle_color_dark-orange {
       left: 230px;
       top: 46px;
@@ -277,6 +284,7 @@ body {
       font: 700 30px/52px 'PT_Sans_Caption';
       letter-spacing: -1.5px;
     }
+
     .logo__rectangle {
       position: absolute;
       width: 22px;
@@ -285,12 +293,14 @@ body {
       transform: rotate(45deg);
       top: 53px;
     }
+
     .logo__rectangle_color_orange {
       top: 37px;
       left: 124px;
       background: #FFBE4D;
       opacity: .5;
     }
+
     .logo__rectangle_color_dark-orange {
       left: 129px;
       top: 39px;
@@ -369,6 +379,7 @@ body {
       font: 700 42px/52px 'PT_Sans_Caption';
       letter-spacing: -1.5px;
     }
+
     .logo__rectangle {
       position: absolute;
       width: 30px;
@@ -377,12 +388,14 @@ body {
       transform: rotate(45deg);
       top: 53px;
     }
+
     .logo__rectangle_color_orange {
       top: 117px;
       left: 94px;
-      background: #FFBE4D;
+      background: #ffbE4d;
       opacity: .5;
     }
+
     .logo__rectangle_color_dark-orange {
       left: 99px;
       top: 119px;
@@ -484,15 +497,15 @@ body {
         position: relative;
         width: 100%;
         height: 3px;
-        background-color: #FF9100;
+        background-color: #ff9100;
         display: flex;
         align-items: center;
         justify-content: center;
       }
 
       /* top and bottom lines*/
-      .menu-wrap .hamburger > div:before,
-      .menu-wrap .hamburger > div:after {
+      .menu-wrap .hamburger > div::before,
+      .menu-wrap .hamburger > div::after {
         content: '';
         position: absolute;
         z-index: 5;
@@ -503,7 +516,7 @@ body {
         }
 
       /* moves 1 line down*/
-        .menu-wrap .hamburger > div:after {
+        .menu-wrap .hamburger > div::after {
           top: 7px;
         }
 
@@ -546,7 +559,6 @@ body {
       .menu-wrap .menu {
         position: fixed;
         top: 0;
-        right: -37px;
         width: 100%;
         height: 105%;
         visibility: hidden;
@@ -554,7 +566,10 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: -70px;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -31px);
+        padding-top: 0;
       }
 
       .menu-wrap .menu > div {
@@ -579,6 +594,7 @@ body {
 
       ul {
     list-style: none;
+    padding: 0;
   }
 
 
